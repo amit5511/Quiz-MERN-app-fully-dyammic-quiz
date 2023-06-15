@@ -1,0 +1,48 @@
+.quizContainer {
+  text-align: center;
+}
+
+.quizInput {
+  height: 40px;
+  margin-top: 20px;
+  width: 80%;
+  font-size: 15px;
+}
+
+.dateDiv {
+  margin-top: 20px;
+}
+
+.quizDate {
+  height: 40px;
+  margin-top: 20px;
+  width: 50%;
+  font-size: 15px;
+}
+
+.quizContainer textarea {
+  margin-top: 20px;
+  width: 80%;
+  height: 100px;
+  font-size: 15px;
+}
+
+.quizContainer button {
+  background-color: green;
+  margin-top: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 80%;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 526px) {
+  .quizInput,
+  .quizDate,
+  .quizContainer textarea,
+  .quizContainer button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,47 @@
+.loginContainer {
+  width: 50%;
+  margin: auto;
+}
+
+.loginContainer input {
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.loginContainer button {
+  margin-top: 20px;
+  height: 40px;
+  width: 100%;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.loginContainer small {
+  margin-top: 10px;
+  float: right;
+}
+
+.error {
+  border: 3px solid red;
+}
+
+.errorText {
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+  .loginContainer {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .loginContainer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.app {
+  height: 100%;
+}
+
+.main-content {
+  min-height: 90%;
+  padding: 10px 5%;
+}
+
+button {
+  cursor: pointer;
+}
