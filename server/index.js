@@ -35,10 +35,10 @@ mongoose.connect(
 
 
 // Routes
-app.use('/api/auth', authRoutes);
-app.use('/api/quiz', quizRoutes);
-app.use('/api/question', questionRoutes);
-app.use('/api/response/', quizResponseRoutes);
+app.use('/auth', authRoutes);
+app.use('quiz', quizRoutes);
+app.use('/question', questionRoutes);
+app.use('/response/', quizResponseRoutes);
 
 //frontend setup
 app.use(express.static(path.join('../client/build')));
